@@ -1,0 +1,37 @@
+.not-public{
+  background-color: rgb(204, 0, 0);
+  font-style: italic;
+  text-align: center;
+  font-family: Arial;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.website{
+  color: rgb(0, 0, 0);
+  background-color: rgb(95, 203, 95);
+  border: none;
+  cursor: pointer;
+  border-radius: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  padding-left: 12px;
+}
+
+.youtube{
+  color: white;
+  background-color: rgb(204, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
