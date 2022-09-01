@@ -1,5 +1,25 @@
+body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 p{
   font-family: Arial;
+  margin-left: 5px;
+}
+
+img{
+  margin-left: 5px;
+}
+
+h2{
+  margin-left: 5px;
+  color: rgb(238, 75, 23);
+}
+
+a{
+  margin-left: 5px;
 
 }
 
@@ -14,6 +34,7 @@ p{
   border-radius: 3px;
   cursor: pointer;
   transition: opacity 0.15s;
+  margin-left: 5px;
 }
 
 .subscribe:hover{
@@ -26,9 +47,52 @@ p{
 
 .top{
   font-size: 50px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+
+}
+
+.head-image{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.header-home{
+  color: black;
+  text-decoration: none;
+}
+
+.header-9wands,
+.header-blockcraft,
+.header-skins{
+  margin-left: 55px;
+  position:relative; bottom:10px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+ }
+
+ .header-9wands:hover,
+ .header-blockcraft:hover,
+ .header-skins:hover{
+  opacity: .7;
+  cursor: pointer;
+ }
+
+.header-yt{
+  margin-left: 30px;
+  height: 30px;
+  width: 45px;
+  position:relative; bottom:10px;
+
 }
 .header{
-
-  height: 103px;
-
+  background-color: rgb(255, 193, 172);
+  height: 120px;
+  margin-left: 0px;
  }
+
