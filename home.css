@@ -44,6 +44,7 @@ a{
 .subscribe:active{
   opacity: .4;
 }
+/* Header */
 
 .top{
   font-size: 50px;
@@ -92,8 +93,25 @@ a{
 }
 .header{
   background-color: rgb(255, 193, 172);
-  height: 120px;
+  height: 130px;
   margin-left: 0px;
   margin-bottom: 70px;
  }
 
+ .header-part-top,
+ .header-part-links{
+  width: 470px;
+  margin-right: 0px;
+  display: inline;
+ }
+
+ .header-part-links{
+  width: 500px;
+
+ }
+
+/* Links */
+
+ .links{
+  background-color: darkslategray;
+ }
