@@ -1,7 +1,10 @@
+/* CSS for home page(file: index.html)*/
+
 body{
   margin-top: 0px;
   margin-right: 0px;
   margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 p{
@@ -115,3 +118,17 @@ a{
  .links{
   background-color: darkslategray;
  }
+
+/* Footer */
+
+.footer{
+  background-color: gray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.source-code{
+  color: black;
+  text-decoration: none;
+}
+
