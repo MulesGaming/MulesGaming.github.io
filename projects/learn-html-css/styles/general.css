@@ -1,0 +1,11 @@
+/* CSS that targets all types of stuff in youtube.html*/
+ 
+p{
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body{
+  margin: 0px;
+}
