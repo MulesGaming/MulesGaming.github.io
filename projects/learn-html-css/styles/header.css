@@ -1,11 +1,19 @@
 /* CSS for the header section of youtube.html*/
- 
+
 .header{
   height: 55px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(222, 222, 222);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .left-section{
@@ -49,8 +57,27 @@
   height: 24px;
 }
 
+.notifacations-icon-contaner{
+  position: relative;
+}
+
 .notifacation-icon{
   height: 24px;
+}
+
+.notifacations-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  color: white;
+  background-color: rgb(204, 0, 0);
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
 }
 
 .current-user-pic{

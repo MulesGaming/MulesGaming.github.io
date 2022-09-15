@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
   </head>
@@ -32,16 +33,23 @@
       <div class="right-section">
         <img class="upload-icon" src="icons/upload.svg">
         <img class="yt-apps-icon" src="icons/youtube-apps.svg">
-        <img class="notifacation-icon" src="icons/notifications.svg">
+        <div class="notifacations-icon-contaner">
+          <img class="notifacation-icon" src="icons/notifications.svg">
+          <div class="notifacations-count">3</div>
+        </div>
         <img class="current-user-pic" src="channel-images/my-channel.png">
       </div>
     </div>
+
+    <!--Sidebar-->
+    <div class="sidebar">Sidebar</div>
 
     <!--Videos-->
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail-1" src="thumbnail/thumbnail-1.png" draggable="false">
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -69,6 +77,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail-1" src="thumbnail/thumbnail-2.png">
+        <div class="video-time">8:22</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -94,6 +103,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail-1" src="thumbnail/thumbnail-3.webp" alt="image error">
+        <div class="video-time">9:13</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -119,7 +129,8 @@
   
   <div class="video-preview">
     <div class="thumbnail-row">
-      <img class="thumbnail-1" src="thumbnail/thumbnail-4.webp" alt="image error">
+      <img class="thumbnail-1" src="thumbnail/thumbnail-4.webp" alt="image error" title="thumbnail">
+      <div class="video-time">22:09</div>
     </div>
     <div class="video-info-grid">
       <div class="channel-picture">
@@ -143,6 +154,7 @@
   </div>
   <div class="video-preview">
     <div class="thumbnail-row">
+      <div class="video-time">11:17</div>
       <img class="thumbnail-1" src="thumbnail/thumbnail-5.webp" alt="image error">
     </div>
     <div class="video-info-grid">
@@ -170,6 +182,7 @@
   <div class="video-preview">
   <div class="thumbnail-row">
     <img class="thumbnail-1" src="thumbnail/thumbnail-6.webp" alt="image error">
+    <div class="video-time">19:59</div>
   </div>
   <div class="video-info-grid">
     <div class="channel-picture">

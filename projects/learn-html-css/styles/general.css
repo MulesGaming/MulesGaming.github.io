@@ -1,5 +1,5 @@
 /* CSS that targets all types of stuff in youtube.html*/
- 
+
 p{
   font-family: Roboto, Arial;
   margin-top: 0px;
@@ -8,4 +8,6 @@ p{
 
 body{
   margin: 0px;
+  padding-top: 80px;
+  padding-left: 80px;
 }
