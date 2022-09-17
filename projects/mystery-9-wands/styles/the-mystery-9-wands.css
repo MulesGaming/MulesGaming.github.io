@@ -1,3 +1,17 @@
+/* Links */
+
+.source-code,
+.bugs,
+.versions,
+.wiki{
+  display: inline-block;
+}
+
+.bugs-text{
+  padding-left: 30px;
+}
+
+/* Credits */
 
 .website{
   color: rgb(0, 0, 0);
