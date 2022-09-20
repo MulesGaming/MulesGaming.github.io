@@ -121,6 +121,36 @@
   margin-right: 10px;
 }
 
+.search-button,
+.voice-search-button{
+  position: relative;
+  display: flex;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip{
+  opacity: 1;
+  transition: opacity 0.15s;
+}
+
 .voice-search-button{
   height: 40px;
   width: 40px;
