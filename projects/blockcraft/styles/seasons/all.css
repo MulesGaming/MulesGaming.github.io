@@ -1,0 +1,37 @@
+/* CSS for Season 1 page */
+
+.playlist{
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mules-playlist,
+.bluey-playlist,
+.zeneii-playlist{
+  display: inline-block;
+}
+
+body{
+margin: 0;
+padding-left: 170px;
+background-color:rgb(175, 175, 175);
+}
+
+.copy-seed{
+  border: none;
+  border-radius: 10px;
+}
+
+.copy-seed:hover{
+  cursor: pointer;
+}
+
+.copy-seed:active{
+  color: gray;
+}
+
+.seed{
+  display: inline-block;
+}
+

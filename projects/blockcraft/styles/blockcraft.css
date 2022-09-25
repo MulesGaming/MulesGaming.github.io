@@ -1,0 +1,17 @@
+/* CSS for index.html */
+
+
+
+/* Main */
+
+.title{
+  font-family: Arial;
+  text-align: left;
+  color: rgb(238, 75, 23);
+}
+
+body{
+  margin: 0;
+  padding-left: 170px;
+  background-color:rgb(175, 175, 175);
+}

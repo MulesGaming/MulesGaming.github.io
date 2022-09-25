@@ -1,0 +1,52 @@
+/* Sidebar */
+
+.sidebar{
+  background-color: rgb(70, 97, 97);
+  position: fixed;
+  margin-left: 0;
+  width: 150px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.catagory-title{
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(238, 75, 23);
+}
+
+.members{
+  border-bottom: 2px;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  padding-left: 5px;
+}
+
+.world-downloads{
+  border-bottom: 2px;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.seasons{
+  padding-left: 5px;
+}
+
+.sidebar .member,
+.sidebar .world-download-link,
+.sidebar .home-title,
+.sidebar .season-link{
+  margin-bottom: 5px;
+  color: black;
+}
+
+.sidebar .member:hover,
+.sidebar .world-download-link:hover,
+.sidebar .home-title:hover,
+.sidebar .season-link:hover{
+  color: yellow;
+}
