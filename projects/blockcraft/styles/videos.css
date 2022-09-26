@@ -1,0 +1,35 @@
+/* CSS for the videos gotton by videos.js */
+
+/* Divs */
+
+.mules,
+.bluey,
+.zaynii{
+  display: inline-block;
+}
+
+/* Thumbnali */
+
+.thumbnail{
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* Info and title */
+
+.video-link{
+  color: black;
+  text-decoration: none;
+}
+
+.video-title{
+  margin-bottom: 5px;
+}
+
+.channel,
+.video-desc{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+
