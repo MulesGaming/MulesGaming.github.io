@@ -4,7 +4,7 @@
 
   // Get videos result
 
-  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCDnNCbnzWhsfgY8A3F7MbiQ&maxResults=10&order=date&q=Blockcraft&key=AIzaSyCXV_pJ1fQs3u7d9qy8uNdHh4XYjHodIpY")
+  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCDnNCbnzWhsfgY8A3F7MbiQ&maxResults=10&order=date&q=Blockcraft&key=[KEY HIDDEN]")
 
   // Everything else
 
@@ -39,7 +39,7 @@
 
   // Get videos result
 
-  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCdTs7rNvX-FLa7hsOjBvm4g&maxResults=10&order=date&q=Blockcraft&key=AIzaSyCXV_pJ1fQs3u7d9qy8uNdHh4XYjHodIpY")
+  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCdTs7rNvX-FLa7hsOjBvm4g&maxResults=10&order=date&q=Blockcraft&key=[Key Hidden]")
 
   // Everything else
 
@@ -70,7 +70,7 @@
 
   // Get videos result
 
-  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCxc9U84DaAYroqUPfwDp1xQ&maxResults=10&order=date&q=Blockcraft&key=AIzaSyCXV_pJ1fQs3u7d9qy8uNdHh4XYjHodIpY")
+  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCxc9U84DaAYroqUPfwDp1xQ&maxResults=10&order=date&q=Blockcraft&key=[Key Hidden}")
 
   // Everything else
 
