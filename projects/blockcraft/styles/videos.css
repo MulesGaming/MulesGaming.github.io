@@ -5,14 +5,33 @@
 .mules,
 .bluey,
 .zaynii{
-  display: inline-block;
+  width: 500px;
+  float: left;
+}
+
+.people-videos{
+  display: table;
+}
+
+.video{
+  max-width: 500px;
+  margin-right: 0;
 }
 
 /* Thumbnali */
 
+.thumbnail-contaner{
+  height: 285px; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
 .thumbnail{
-  width: 400px;
+  height: 400px;
+  width: 480px;
   border-radius: 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 /* Info and title */
@@ -30,6 +49,10 @@
 .video-desc{
   margin-top: 0;
   margin-bottom: 5px;
+}
+
+.channel{
+  margin-bottom: 40px;
 }
 
 
