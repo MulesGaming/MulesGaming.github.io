@@ -1,5 +1,9 @@
 // Blockcraft videos
 
+// Other load items
+
+console.log("Videos.js loaded. This website uses YouTube API.")
+
 // Mules
 
   // Get videos result
