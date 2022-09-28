@@ -21,7 +21,7 @@ fetch("https://youtube.googleapis.com/youtube/v3/channels?part=snippet&part=stat
       // HTML
       channelContaner.innerHTML += `
       <div class="channel-info">
-        <img src="${channel.snippet.thumbnails.default.url}" class="channel-icon" title="Bluey's Channel picture" alt="ERROR: Channel picture failed to load">
+        <img src="${channel.snippet.thumbnails.default.url}" class="channel-icon" title="Mules's Channel picture" alt="ERROR: Channel picture failed to load">
         <h3 class="channel-name">${channel.snippet.title}</h3>
       </div>
       <div class="buttons">
