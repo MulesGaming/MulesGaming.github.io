@@ -71,7 +71,6 @@
   right: -5px;
   color: white;
   background-color: rgb(204, 0, 0);
-  font-family: Roboto, Arial;
   font-size: 11px;
   padding-left: 5px;
   padding-right: 5px;
@@ -87,7 +86,6 @@
 }
 
 .search::placeholder{
-  font-family: Roboto, Airal;
   font-size: 16px;
 }
 
@@ -96,9 +94,7 @@
   flex: 1;
   padding-left: 10px;
   font-size: 16px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(192, 192, 192);
+  border:  1px solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
@@ -106,8 +102,7 @@
 
 
 .search-icon{
-  height: 24px;
-  margin-top: 3px;
+  height: 25px;
 }
 
 .search-button{
@@ -122,13 +117,21 @@
 }
 
 .search-button,
-.voice-search-button{
+.voice-search-button,
+.upload-icon-contaner,
+.yt-apps-contaner,
+.notifacations-icon-contaner{
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-button .tooltip,
-.voice-search-button .tooltip{
+.voice-search-button .tooltip,
+.upload-icon-contaner .tooltip,
+.yt-apps-contaner .tooltip,
+.notifacations-tooltip-contaner .tooltip{
   position: absolute;
   background-color: gray;
   color: white;
@@ -146,7 +149,10 @@
 }
 
 .search-button:hover .tooltip,
-.voice-search-button:hover .tooltip{
+.voice-search-button:hover .tooltip,
+.upload-icon-contaner:hover .tooltip,
+.yt-apps-contaner:hover .tooltip,
+.notifacations-tooltip-contaner:hover .tooltip{
   opacity: 1;
   transition: opacity 0.15s;
 }

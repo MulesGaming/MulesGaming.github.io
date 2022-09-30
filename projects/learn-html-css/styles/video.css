@@ -19,14 +19,79 @@
 
 
 .video-info-grid{
-display: grid;
-grid-template-columns: 50px 1fr;
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture{
 width: 36px;
 border-radius: 50px;
 }
+
+/* Start Exspand */
+
+.channel-exspand{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  padding-right: 225px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+}
+
+.profile-picture-large{
+  width: 50px;
+  border-radius: 50px;
+}
+
+.channel-exspand .exspanded-subscribers{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+  color: gray;
+}
+
+.channel-exspand .exspanded-channel-name,
+.channel-exspand .profile-picture-exspand{
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+.channel-picture:hover .channel-exspand .exspanded-channel-name,
+.channel-picture:hover .channel-exspand .profile-picture-exspand,
+.channel-picture:hover .channel-exspand,
+.channel-exspand .exspanded-subscribers
+{
+  opacity: 1;
+  pointer-events: none;
+}
+
+/* End exspand */
 
 .video-creator,
 .video-stats{
@@ -45,18 +110,55 @@ column-gap: 15px;
 row-gap: 40px;
 }
 
+/* Start screen sizes */
+
+@media (max-width: 750px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .video-title{
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar-link{
+    padding-right: 100px;
+  }
+
+  .sidebar{
+    width: 100px;
+  }
+}
+
+/* End screen sizes */
+
 .video-time{
   background-color: black;
   color: white;
   position: absolute;
   right: 5px;
   bottom: 8px;
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   border-radius: 2px;
+}
+
+.video-link{
+  color: black;
+  text-decoration: none;
 }
