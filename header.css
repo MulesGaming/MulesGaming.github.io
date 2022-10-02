@@ -72,10 +72,10 @@ p{
 
  .header-part-top,
  .header-part-links{
-  width: 470px;
   margin-right: 0px;
   display: flex;
   align-items: center;
+  flex-direction: 1fr 1fr 1fr 1fr;
  }
 
  .header-part-links{
