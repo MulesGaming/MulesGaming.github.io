@@ -25,8 +25,8 @@ fetch("https://youtube.googleapis.com/youtube/v3/channels?part=snippet&part=stat
         <h3 class="channel-name">${channel.snippet.title}</h3>
       </div>
       <div class="buttons">
-        <a href="https://www.youtube.com/channel/UCdTs7rNvX-FLa7hsOjBvm4g/"><button class="yt-channel-button">Youtube channel</button></a><br>
-        <a href="https://www.youtube.com/channel/UCdTs7rNvX-FLa7hsOjBvm4g?sub_confirmation=1"><button class="subscribers">${channel.statistics.subscriberCount} Subscribers</button></a><br>
+        <a href="https://www.youtube.com/channel/${channel.id}/"><button class="yt-channel-button">Youtube channel</button></a><br>
+        <a href="https://www.youtube.com/channel/${channel.id}?sub_confirmation=1"><button class="subscribers">${channel.statistics.subscriberCount} Subscribers</button></a><br>
       </div>
       `
     }
