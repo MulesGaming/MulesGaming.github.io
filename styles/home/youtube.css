@@ -1,0 +1,62 @@
+/* All CSS for the youtube section of www.mulesgaming.com home page */
+
+/* Main area */
+
+.youtube-main{
+  background-color: rgb(238, 55, 55);
+}
+
+/* Channel */
+
+.channel-contaner{
+  text-align: center;
+}
+
+.subscribers-link,
+.channel-link{
+  color: black;
+  text-decoration: none;
+}
+
+.channel-icon{
+  border-radius: 100px;
+  width: 150px;
+}
+
+.channel-name{
+  margin-bottom: 0px;
+  font-family: Roboto, Arial;
+}
+
+.subscribers{
+  margin-top: 0px;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+}
+
+/* Videos */
+
+.videos-area-title{
+  text-align: center;
+  font-family: Roboto, Arial;
+}
+
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video{
+  display: inline-block;
+}
+
+.videos-link{
+  color: black;
+  text-decoration: none;
+}
+
+.video-thumbnail{
+  width: 480px;
+  border-radius: 5px;
+}

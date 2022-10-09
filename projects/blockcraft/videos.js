@@ -26,7 +26,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
       <div class="video">
         <div class="thumbnail-contaner">
             <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link">
-            <img src="${videos.snippet.thumbnails.high.url}" class="thumbnail" alt="ERROR: Thumbnail failed to load">
+            <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="thumbnail" alt="ERROR: Thumbnail failed to load">
             </a>
         </div>
         <div class="text-box">
@@ -61,7 +61,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
       <div class="video">
         <div class="thumbnail-contaner">
           <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link">
-          <img src="${videos.snippet.thumbnails.high.url}" class="thumbnail" alt="ERROR: Thumbnail failed to load">
+          <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="thumbnail" alt="ERROR: Thumbnail failed to load">
           </a>
         </div>
         <div class="text-box">
@@ -96,7 +96,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
       <div class="video">
         <div class="thumbnail-contaner">
           <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link">
-          <img src="${videos.snippet.thumbnails.high.url}" class="thumbnail" alt="ERROR: Thumbnail failed to load">
+          <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="thumbnail" alt="ERROR: Thumbnail failed to load">
           </a>
         </div>
         <div class="text-box">

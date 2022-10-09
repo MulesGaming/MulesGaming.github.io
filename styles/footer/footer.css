@@ -1,0 +1,56 @@
+/* CSS for the footer */
+
+/* General */
+
+.footer{
+  background-color: rgb(46, 46, 175);
+  display: flex;
+  align-items: center;
+}
+
+/* Page source */
+
+.page-source{
+  max-width: 200px;
+  margin-right: 0px;
+  display: inline-block;
+}
+
+.page-source-link{
+  color: white;
+  text-decoration: none;
+}
+
+.page-source-text{
+  padding: 0px 4px 0px 15px;
+  font-family: Roboto, Arial;
+}
+
+/* Links */
+
+.links{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.youtube-icon-footer,
+.github-icon-footer,
+.planet-minecraft-icon-footer{
+  width: 40px;
+}
+
+.projects-link-footer,
+.website-link-footer,
+.blockcraft-link-footer{
+  margin-left: 15px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+}
+
+.projects-link-link-footer,
+.website-link-link-footer,
+.blockcraft-link-link-footer{
+  color: rgb(142, 142, 142);
+  text-decoration: none;
+}

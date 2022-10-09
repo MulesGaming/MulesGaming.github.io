@@ -20,18 +20,9 @@
 
 /* Thumbnali */
 
-.thumbnail-contaner{
-  height: 285px; 
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-
 .thumbnail{
-  height: 400px;
   width: 480px;
-  border-radius: 90px;
-  margin: 0px 0px 0px 0px;
+  border-radius: 5px;
 }
 
 /* Info and title */
