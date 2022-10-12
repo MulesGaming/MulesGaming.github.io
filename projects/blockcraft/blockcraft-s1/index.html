@@ -25,6 +25,7 @@
   padding-left: 170px;
   background-color:rgb(175, 175, 175);
   }
+
   </style>
 </head>
 <body>
@@ -59,17 +60,18 @@
   <!-- Title -->
   <h1>Blockcraft Season 1!</h1>
 <!-- Seed -->
+<div class="seed">
+  <p class="seed"> Seed: -1011332653 </p>
+  <img class="copy-seed" src="/media/images/copy-icon.svg" alt="Copy Icon" width="25px" title="Click to copy" onclick="copySeed()">
+  <script>
+    function copySeed() {
 
-<p class="seed"> Seed: -1011332653 </p>
-<button class="copy-seed" onclick="copyText()"> Copy seed</button>
-<script>
-  function copyText() {
-
-      /* Copy text to clipboard */
-      navigator.clipboard.writeText
-          ("-1011332653");
-  }
-</script>
+        /* Copy text to clipboard */
+        navigator.clipboard.writeText
+            ("-1011332653");
+    }
+  </script>
+</div>
 <br>
 <br>
 <!-- Play list -->

@@ -61,9 +61,9 @@
 <!-- Seed -->
 
 <p class="seed"> Seed: Pending </p>
-<button class="copy-seed" onclick="copyText()"> Copy seed</button>
+<img class="copy-seed" src="/media/images/copy-icon.svg" alt="Copy Icon" width="25px" title="Click to copy" onclick="copySeed()">
 <script>
-  function copyText() {
+  function copySeed() {
 
       /* Copy text to clipboard */
       navigator.clipboard.writeText
