@@ -17,6 +17,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
     let videoContaner = document.querySelector(".videos-container")
     let videos = data.items
     for(videos of videos){
+
       // HTML
       videoContaner.innerHTML += `
       <div class="video">
