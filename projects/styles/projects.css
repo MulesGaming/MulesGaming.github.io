@@ -20,7 +20,8 @@ main{
 .projects-links .skins-button,
 .projects-links .bluey-mulesgaming-com-button,
 .projects-links .zeneii-mulesgaming-com-button,
-.projects-links .datapacks-button{
+.projects-links .datapacks-button,
+.projects-links .search-button{
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
   margin-top: 5px;
@@ -33,7 +34,8 @@ main{
 .projects-links .skins-button:hover,
 .projects-links .bluey-mulesgaming-com-button:hover,
 .projects-links .zeneii-mulesgaming-com-button:hover,
-.projects-links .datapacks-button:hover{
+.projects-links .datapacks-button:hover,
+.projects-links .search-button:hover{
   cursor: pointer;
   opacity: 0.7;
 }
@@ -42,6 +44,7 @@ main{
 .projects-links .skins-button:active,
 .projects-links .bluey-mulesgaming-com-button:active,
 .projects-links .zeneii-mulesgaming-com-button:active,
-.projects-links .datapacks-button:active{
+.projects-links .datapacks-button:active,
+.projects-links .search-button:active{
   opacity: 0.5;
 }

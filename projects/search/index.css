@@ -1,0 +1,55 @@
+/* Videos */
+
+.video-link{
+  color: black;
+  text-decoration: none;
+}
+
+.video-thumbnail{
+  border-radius: 5px;
+  width: 200px;
+}
+
+.video-title{
+  font-family: Roboto, Arial;
+}
+
+/* Input */
+
+.seach-holder{
+  margin-bottom: 10px;
+}
+
+.more-info{
+  font-family: Roboto, Arial;
+  color: lightgray;
+}
+
+.search{
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 2px;
+}
+
+.search::placeholder{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+}
+
+.submit-search{
+  border-radius: 5px;
+  border: 0px;
+  padding: 3px 4px 3px 4px;
+  background-color: darkblue;
+  color: white;
+}
+
+.submit-search:hover{
+  background-color: rgb(1, 1, 108);
+  cursor: pointer;
+}
+
+.submit-search:active{
+  background-color: rgb(0, 0, 53);
+}
+

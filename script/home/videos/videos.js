@@ -22,8 +22,8 @@ console.log("Videos.js loaded. This website uses YouTube API.")
       videoContaner.innerHTML += `
       <div class="video">
         <a class="videos-link" href="https://www.youtube.com/watch?v=${videos.id.videoId}">
-        <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.snippet.title}" alt="${videos.snippet.title}'s thumbnail">  
-        <h3 class="video-title">${videos.snippet.title}</h3>
+          <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.snippet.title}" alt="${videos.snippet.title}'s thumbnail">  
+          <h3 class="video-title">${videos.snippet.title}</h3>
         </a>
       </div>
       `
