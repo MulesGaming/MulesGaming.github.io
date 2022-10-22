@@ -1,0 +1,30 @@
+/* Choice */
+
+body{
+  text-align: center;
+}
+
+.rock-button,
+.paper-button,
+.scissors-button{
+  background-color: rgb(39, 39, 183);
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 8px 7px 8px 7px;
+  margin-left: 5px;
+}
+
+.rock-button:hover,
+.paper-button:hover,
+.scissors-button:hover{
+  cursor: pointer;
+  background-color: rgb(30, 30, 135);
+}
+
+.rock-button:active,
+.paper-button:active,
+.scissors-button:active{
+  cursor: pointer;
+  background-color: rgb(19, 19, 82);
+}
