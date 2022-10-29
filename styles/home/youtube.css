@@ -50,6 +50,7 @@
 .video{
   display: inline-block;
   margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .videos-link{
@@ -61,3 +62,23 @@
   width: 480px;
   border-radius: 5px;
 }
+
+.video-title{
+  margin-bottom: 0px;
+}
+
+/* Views */
+
+.video-stats{
+  align-items: center;
+}
+
+.view-icon{
+  width: 30px;
+  vertical-align: middle;
+}
+
+.view-count{
+  display: inline-block;
+}
+

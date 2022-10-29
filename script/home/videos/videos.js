@@ -12,24 +12,34 @@ console.log("Videos.js loaded. This website uses YouTube API.")
 
   .then((result)=>{
     return result.json()
-  }).then((data)=>{
+  }).then((id)=>{
     // LET blank = blank
-    let videoContaner = document.querySelector(".videos-container")
-    let videos = data.items
-    for(videos of videos){
-
-      // HTML
-      videoContaner.innerHTML += `
-      <div class="video">
-        <a class="videos-link" href="https://www.youtube.com/watch?v=${videos.id.videoId}">
-          <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.snippet.title}" alt="${videos.snippet.title}'s thumbnail">  
-          <h3 class="video-title">${videos.snippet.title}</h3>
-        </a>
-      </div>
-      `
+    let videoId = id.items
+    for(videoId of videoId){
+      var videoID = `${videoId.id.videoId}`
+      // Stats
+      fetch("https://youtube.googleapis.com/youtube/v3/videos?part=statistics,snippet&id=" + videoID + "&key=AIzaSyAMMhkNlgDzRQKmBIr7NKYkxlbd52Vcv-A")
+      .then((result)=>{
+        return result.json()
+      }).then((videoData)=>{
+        let stats = videoData.items[0].statistics
+        let videos = videoData.items[0].snippet
+        let videoIndividualID = videoData.items[0].id
+        let videoContaner = document.querySelector(".videos-container")
+        // HTML
+        videoContaner.innerHTML += `
+        <section class="video">
+          <a class="videos-link" href="https://www.youtube.com/watch?v=${videoIndividualID}">
+            <img src="https://i.ytimg.com/vi/${videoIndividualID}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.title}" alt="${videos.title}'s thumbnail">  
+            <h3 class="video-title">${videos.title}</h3>
+            <div class="video-stats">
+              <img class="view-icon" src="/media/images/view-icon.svg" alt="A eye" title="views">
+              <p class="view-count">${stats.viewCount}</p>
+            </div>
+          </a>
+        </section>
+        `
+      })
     }
-
-  })
-
-
-
+  }
+)
