@@ -1,0 +1,12 @@
+body{
+  margin: 0px;
+}
+
+main{
+  text-align: center;
+}
+
+.page-not-found-header{
+  color: red;
+}
+
