@@ -6,7 +6,7 @@ console.log("Channel.js loaded. This website uses YouTube API.")
 
 // Get channel data
 
-fetch("https://youtube.gooogleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCDnNCbnzWhsfgY8A3F7MbiQ&key=AIzaSyCxIG9tnDHYuVctoJ1hlvsTQIcK6j7Wsc8")
+fetch("https://youtube.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCDnNCbnzWhsfgY8A3F7MbiQ&key=AIzaSyCxIG9tnDHYuVctoJ1hlvsTQIcK6j7Wsc8")
 
   // Rest of code
 
