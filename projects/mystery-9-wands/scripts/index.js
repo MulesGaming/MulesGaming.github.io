@@ -21,7 +21,7 @@ fetch("https://api.github.com/repos/mulesgaming/The-mystery-of-the-9-wands/relea
     let outputDiv = document.getElementById("releasesSection")
     let latestRelease = data      // Write HTML
       outputDiv.innerHTML += `
-      <a>
+      <a class="release-links">
         <div class="info">
           <span class="release-name">${latestRelease.name}</span>
           <div class="releases-desc-container">
