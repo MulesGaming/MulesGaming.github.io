@@ -23,7 +23,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
     for(videos of videos){
       // HTML
       videoContaner.innerHTML += `
-      <div class="video">
+      <section class="video">
         <div class="thumbnail-contaner">
             <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link">
             <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="thumbnail" alt="ERROR: Thumbnail failed to load">
@@ -34,7 +34,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
           <p class="video-desc">${videos.snippet.description}</p><br>
           <a href="https://www.youtube.com/channel/${videos.snippet.channelId}" class=" video-link"><p class="channel">${videos.snippet.channelTitle}</p></a>
         </div>
-      </div>
+      </section>
       `
     }
 
@@ -58,7 +58,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
     for(videos of videos){
       // HTML
       videoContaner.innerHTML += `
-      <div class="video">
+      <section class="video">
         <div class="thumbnail-contaner">
           <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link">
           <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="thumbnail" alt="ERROR: Thumbnail failed to load">
@@ -69,7 +69,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
           <p class="video-desc">${videos.snippet.description}</p><br>
           <a href="https://www.youtube.com/channel/${videos.snippet.channelId}" class=" video-link"><p class="channel">${videos.snippet.channelTitle}</p></a>
         </div>
-      </div>
+      </section>
       `
     }
 
@@ -93,7 +93,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
     for(videos of videos){
       // HTML
       videoContaner.innerHTML += `
-      <div class="video">
+      <section class="video">
         <div class="thumbnail-contaner">
           <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link">
           <img src="https://i.ytimg.com/vi/${videos.id.videoId}/hq720.jpg" class="thumbnail" alt="ERROR: Thumbnail failed to load">
@@ -104,7 +104,7 @@ console.log("Videos.js loaded. This website uses YouTube API.")
           <p class="video-desc">${videos.snippet.description}</p><br>
           <a href="https://www.youtube.com/channel/${videos.snippet.channelId}" class=" video-link"><p class="channel">${videos.snippet.channelTitle}</p></a>
         </div>
-      </div>
+      </section>
       `
     }
 

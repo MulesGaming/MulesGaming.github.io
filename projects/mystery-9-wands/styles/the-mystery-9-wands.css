@@ -19,6 +19,22 @@ body{
 
 /* Credits */
 
+.credits .by-mules{
+  display: block;
+}
+
+.by-mules .by-mules-bold{
+  font-weight: 700;
+}
+
+.buttons .website-section{
+  list-style-type: none;
+}
+
+.website-section .website-text{
+  font-style: italic;
+}
+
 .website{
   color: rgb(0, 0, 0);
   background-color: rgb(95, 203, 95);
@@ -36,7 +52,14 @@ body{
   opacity: .8;
 }
 
+.buttons .youtube-section{
+  list-style-type: none;
+  margin-top: 3px;
+}
 
+.youtube-section .youtube-text{
+  font-style: italic;
+}
 
 .youtube{
   color: white;
@@ -55,3 +78,58 @@ body{
 .youtube:hover{
   opacity: .8;
 }
+
+/* Releases */
+
+.releases-title{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.releases-holder .releases{
+  background-color: white;
+  margin-top: 5px;
+  border: 2px gray solid;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.info .release-name{
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.info .releases-desc-title{
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.releases-desc-container{
+  background-color: rgb(245, 245, 245);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.downloads .downloads-header{
+  display: block;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.downloads .download-link{
+  color: black;
+  text-decoration: underline;
+  display: block;
+}
+
+.downloads .download-link:hover{
+  color: rgba(149, 149, 2, 0.982);
+}
+
+.releases-holder .made-with-github-api{
+  font-size: 12px;
+}
+
+

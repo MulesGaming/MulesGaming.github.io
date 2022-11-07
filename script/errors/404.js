@@ -8,7 +8,7 @@ const url = getURL()
 
 // Write to html
 
-let videoContaner = document.querySelector(".url")
+let urlContaner = document.querySelector(".url")
 
-videoContaner.innerHTML += `<a href="` + url + `">` + url + `</a>`
+urlContaner.innerHTML += `<a href="` + url + `">` + url + `</a>`
 
