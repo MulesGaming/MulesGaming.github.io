@@ -1,0 +1,42 @@
+/* CSS for skins.html */
+
+body{
+  margin: 0px;
+  background-color:rgb(175, 175, 175);
+  font-family: Roboto, Arial;
+}
+
+.body-header{
+  margin-left: 5px;
+  display: block;
+}
+
+/* Main skins */
+
+.mules-skin{
+  margin-left: 5px;
+}
+
+.mules-skin,
+.wizard-mules,
+.dark-wizard-mules,
+.dead-mules,
+.sith-mules,
+.work-mules,
+.princess-mules,
+.suit-mules,
+.revised-mules{
+  display: inline-block;
+  width: 130px;
+  vertical-align: top;
+}
+
+.link-contanier{
+  text-align: center;
+  max-width: 100px;
+}
+
+.view-file-text{
+  display: block;
+  margin-bottom: 5px;
+}
