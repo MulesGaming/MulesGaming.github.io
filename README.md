@@ -1,1 +1,1 @@
-This github respitory is the sourse code for my website, https://www.mulesgaming.com/.
+This github respitory is the sourse code for my website, https://www.mulesgaming.com/

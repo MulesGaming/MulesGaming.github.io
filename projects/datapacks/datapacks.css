@@ -1,5 +1,58 @@
-h3{
-  margin-bottom: .5px;
+/* Affects all(I.e body) */
+
+body{
+  font-family: Roboto, Arial;
+  background-color:rgb(175, 175, 175);
+}
+
+/* How to install */
+
+main .how-to-install-container{
+  text-align: center;
+}
+
+.how-install-link .how-to-install-text{
+  margin-bottom: 5px;
+}
+
+/* Datapacks */
+
+.downloads{
+  padding: 0px;
+}
+
+.downloads .download-link,
+.downloads .all-versions-link{
+  text-decoration: none;
+  text-align: center;
+}
+
+.download-link .download-button{
+  margin: 0px 0px 5px 5px;
+  padding: 5px 3px 5px 3px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  cursor: pointer;
+  display: block;
+}
+
+.all-versions-link .all-versions-button{
+  margin: 0px 0px 5px 5px;
+  padding: 5px 3px 5px 3px;
+  border-radius: 5px;
+  background-color: magenta;
+  cursor: pointer;
+  display: block;
+}
+
+.download-link .download-button:hover,
+.all-versions-link .all-versions-button:hover{
+  opacity: .7;
+}
+
+.download-link .download-button:active,
+.all-versions-link .all-versions-button:hover{
+  opacity: .4;
 }
 
 .datapack-backround{

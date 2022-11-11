@@ -1,0 +1,19 @@
+/* Affects all(I.e body) */
+
+body{
+  font-family: Roboto, Arial;
+  background-color:rgb(175, 175, 175);
+}
+
+/* Non-versison list part */
+
+.non-versions{
+  text-align: center;
+}
+
+/* Main version list */
+
+.datapack-versions{
+  text-align: center;
+}
+
