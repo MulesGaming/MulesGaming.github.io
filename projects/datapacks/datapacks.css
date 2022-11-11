@@ -17,6 +17,14 @@ main .how-to-install-container{
 
 /* Datapacks */
 
+.datapack-info-container{
+  margin-left: 5px;
+}
+
+.datapack-name{
+  margin-left: 5px;
+}
+
 .downloads{
   padding: 0px;
 }
