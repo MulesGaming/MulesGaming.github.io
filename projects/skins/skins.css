@@ -6,6 +6,10 @@ body{
   font-family: Roboto, Arial;
 }
 
+.header-section{
+  text-align: center;
+}
+
 .body-header{
   margin-left: 5px;
   display: block;
