@@ -5,3 +5,15 @@ body{
   background-color:rgb(175, 175, 175);
 }
 
+/* Main */
+
+.main-header{
+  text-align: center;
+}
+
+.new-install,
+.existing-install{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}

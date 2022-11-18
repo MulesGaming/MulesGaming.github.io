@@ -6,6 +6,7 @@
   background-color: rgb(46, 46, 175);
   display: flex;
   align-items: center;
+  z-index: 100;
 }
 
 /* Page source */
