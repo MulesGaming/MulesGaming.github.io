@@ -1,0 +1,17 @@
+# robots.txt file for Mules Gamings website
+# www.mulesgaming.com youtube.com/@mulesgamingmc
+
+User-agent: *
+Disallow: /projects/assorted/*
+Disallow: /projects/minecraft-wordle/*
+Disallow: /mules-bot/*
+Allow: /projects/assorted/learn-js/rock-paper-scissors.html
+# Errors
+Disallow: 404.html
+Disallow: 500.html
+Disallow: generic-error.html
+Disallow: forbidden.html
+Disallow: page-moved.html
+# Rickrolls
+Disallow: alt.html
+Disallow: owl.html

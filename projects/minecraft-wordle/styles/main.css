@@ -1,0 +1,42 @@
+/* Universal styles */
+body{
+  margin: 0px;
+  font-family: Roboto, Arial;
+  color: white;
+  background-image: url("/media/images/minecraft-wordle/grass_block.png");
+}
+
+main{
+  background-color: rgb(53, 42, 42);
+}
+
+.link{
+  color: white;
+}
+
+/* Warnings */
+
+.error{
+  background-color: red;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  position: absolute;
+  top: 70px;
+  right: 705px;
+  text-align: center;
+  visibility: hidden;
+}
+
+/* Header and description */
+
+.header,
+.desc{
+  text-align: center;
+}
+
+/* Main game */
+
+.main-game{
+  text-align: center;
+}
