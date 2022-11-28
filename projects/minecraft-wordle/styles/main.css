@@ -16,16 +16,23 @@ main{
 
 /* Warnings */
 
+.warnings{
+  position: relative;
+  align-items: top;
+  vertical-align: top;
+}
+
 .error{
   background-color: red;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   max-width: 100%;
   position: absolute;
-  top: 70px;
-  right: 705px;
+  top: -40px;
+  right: 700px;
   text-align: center;
   visibility: hidden;
+  z-index: 100;
 }
 
 /* Header and description */
