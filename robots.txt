@@ -5,6 +5,9 @@ User-agent: *
 Disallow: /projects/assorted/*
 Disallow: /projects/minecraft-wordle/*
 Disallow: /mules-bot/*
+Disallow: /yt.html
+Disallow: /sub.html
+Disallow: /community.html
 Allow: /projects/assorted/learn-js/rock-paper-scissors.html
 # Errors
 Disallow: 404.html

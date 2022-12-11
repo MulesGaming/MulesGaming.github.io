@@ -1,7 +1,4 @@
-.show{
-  visibility: hidden;
-}
-
 .popup{
   color: red;
+  visibility: hidden;
 }

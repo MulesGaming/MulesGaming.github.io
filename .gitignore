@@ -4,4 +4,6 @@ projects/minecraft-wordle/styles/tiles.css
 projects/minecraft-wordle/scripts/main.js
 projects/minecraft-wordle/index.html
 projects/minecraft-wordle/styles/main.css
-
+projects/minecraft-wordle/scripts/themes.js
+.gitignore
+projects/minecraft-wordle/styles/themes/dark.css

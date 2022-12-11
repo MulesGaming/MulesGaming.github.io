@@ -11,6 +11,19 @@ function openPopout(url) {
 
 function togglePopup() {
   var popup = document.getElementById("thePopup");
-  popup.classList.toggle("show");}
+  popup.style.visibility = 'visible';
+}
 
+// ?
 
+const queryString = window.location.search;
+
+const urlParams = new URLSearchParams(queryString);
+
+const popup = urlParams.get('showpopup')
+
+// If ?showpopup=true
+
+if (popup === "true") {
+  togglePopup ()
+}

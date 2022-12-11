@@ -14,6 +14,21 @@ main{
   color: white;
 }
 
+/* Custom highlight color */
+
+::selection{
+  background-color: yellow;
+  color: black;
+}
+
+/* Font */
+
+@font-face {
+  font-family: Font Icons;
+  font-weight: normal;
+  src: url(/media/fonts/minecraft-wordle/text-icons.ttf);
+}
+
 /* Warnings */
 
 .warnings{
@@ -28,11 +43,10 @@ main{
   border-radius: 5px;
   max-width: 100%;
   position: absolute;
-  top: -40px;
-  right: 700px;
   text-align: center;
   visibility: hidden;
   z-index: 100;
+  margin-left: 45%;
 }
 
 /* Header and description */
