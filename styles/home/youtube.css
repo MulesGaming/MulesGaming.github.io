@@ -65,6 +65,10 @@
 
 .video-title{
   margin-bottom: 0px;
+  max-width: 550px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Views */
