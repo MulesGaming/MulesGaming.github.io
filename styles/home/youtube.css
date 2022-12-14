@@ -34,6 +34,11 @@
   font-size: 20px;
 }
 
+.handle-text{
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
 /* Videos */
 
 .videos-area-title{
@@ -70,6 +75,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
 
 /* Views */
 

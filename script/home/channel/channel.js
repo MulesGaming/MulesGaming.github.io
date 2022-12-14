@@ -21,12 +21,14 @@ fetch("https://youtube.googleapis.com/youtube/v3/channels?part=snippet&part=stat
     for(channel of channel){
       // HTML
       channelContaner.innerHTML += `
-      <a class="channel-link" href="https://www.youtube.com/channel/${channel.id}">
+      <a class="channel-link" href="https://www.youtube.com/${channel.snippet.customUrl}">
           <img src="${channel.snippet.thumbnails.default.url}" class="channel-icon" title="Mules Gaming's Channel picture" alt="Mules channel picture">
       </a>
-          <a class="channel-link" href="https://www.youtube.com/channel/${channel.id}">
-            <h1 class="channel-name">${channel.snippet.title}</h1>
-      </a><br>
+      <a class="channel-link" href="https://www.youtube.com/${channel.snippet.customUrl}">
+        <h1 class="channel-name">${channel.snippet.title}</h1>
+        <span class="handle-text">${channel.snippet.customUrl}</span>
+      </a>
+      <br>
       <a class="subscribers-link" href="https://www.youtube.com/channel/${channel.id}?sub_confirmation=1">
         <p class="subscribers">${channel.statistics.subscriberCount} subscribers</p>
       </a>

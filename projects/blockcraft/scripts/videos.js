@@ -102,7 +102,9 @@ console.log("Videos.js loaded. This website uses YouTube API.")
         <div class="text-box">
           <a href="https://www.youtube.com/watch/${videos.id.videoId}" class="video-link"><h3 class="video-title">${videos.snippet.title}</h3></a><br>
           <p class="video-desc">${videos.snippet.description}</p><br>
-          <a href="https://www.youtube.com/channel/${videos.snippet.channelId}" class=" video-link"><p class="channel">${videos.snippet.channelTitle}</p></a>
+          <div class="creator-div">
+            <a href="https://www.youtube.com/channel/${videos.snippet.channelId}" class=" video-link"><p class="channel">${videos.snippet.channelTitle}</p></a>
+          </div>
         </div>
       </section>
       `
