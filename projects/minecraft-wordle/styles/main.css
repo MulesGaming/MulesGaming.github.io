@@ -43,10 +43,12 @@ main{
   border-radius: 5px;
   max-width: 100%;
   position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   visibility: hidden;
   z-index: 100;
-  margin-left: 45%;
 }
 
 /* Header and description */

@@ -1,0 +1,28 @@
+{
+  "short_name": "Mules Gaming",
+  "name": "Mules Gaming.com",
+  "description": "The offical website of the YouTuber Mules Gaming!",
+  "icons": [
+    {
+      "src": "/media/images/mules-icon-transparent.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/media/images/mules-icon-transparent-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/media/images/mules-icon-transparent-large.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#FFA500",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FFA500"
+}
