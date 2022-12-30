@@ -6,6 +6,10 @@ body{
   background-image: url("/media/images/minecraft-wordle/grass_block.png");
 }
 
+.capital-letter{
+  text-transform: uppercase;
+}
+
 main{
   background-color: rgb(53, 42, 42);
 }
