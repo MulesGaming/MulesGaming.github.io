@@ -7,3 +7,5 @@ projects/minecraft-wordle/styles/main.css
 projects/minecraft-wordle/scripts/themes.js
 .gitignore
 projects/minecraft-wordle/styles/themes/dark.css
+projects/minecraft-wordle/styles/menu.css
+projects/minecraft-wordle/scripts/menu.js
