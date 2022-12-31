@@ -34,7 +34,7 @@ fetch("https://api.github.com/repos/mulesgaming/The-mystery-of-the-9-wands/relea
         <span class="downloads-header">Downloads/assets:</span>
         <ul class="download-links-list">
           <li><a class="download-link" href="${latestRelease.assets[0].browser_download_url}">${latestRelease.assets[0].name}</a></li>
-          <li><a class="download-link" href="${latestRelease.assets[1].browser_download_url}">${latestRelease.assets[0].name}</a></li>
+          <li><a class="download-link" href="${latestRelease.assets[1].browser_download_url}">${latestRelease.assets[1].name}</a></li>
         </ul>
       </div>
       `
