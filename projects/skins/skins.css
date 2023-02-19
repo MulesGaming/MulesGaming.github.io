@@ -29,7 +29,9 @@ body{
 .work-mules,
 .princess-mules,
 .suit-mules,
-.revised-mules{
+.revised-mules,
+.santa-mules,
+.agent-mules{
   display: inline-block;
   width: 130px;
   vertical-align: top;
