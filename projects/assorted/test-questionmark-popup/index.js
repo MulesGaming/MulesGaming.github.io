@@ -27,3 +27,8 @@ const popup = urlParams.get('showpopup')
 if (popup === "true") {
   togglePopup ()
 }
+
+// Cookie
+
+document.cookie = "we-test=test; SameSite=None; Secure";
+
