@@ -1,0 +1,46 @@
+/* CSS for website dropdown menu */
+
+.dropdown{
+  position: absolute;
+}
+
+/* Icon and close */
+
+.dropdown-icon{
+  cursor: pointer;
+}
+
+.dropdown-close{
+  cursor: pointer;
+  position: absolute;
+  right: -30px;
+  font-size: 30px;
+}
+
+/* Menu */
+
+.dropdown-menu-main{
+  visibility: hidden;
+  min-width: 50px;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  background-color: blue;
+  padding-top: 5px;
+}
+
+.dropdown-menu-main a {
+  text-decoration: none;
+}
+
+.dropdown-menu-img{
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.dropdown-menu-item{
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
