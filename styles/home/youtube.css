@@ -1,5 +1,4 @@
 /* All CSS for the youtube section of www.mulesgaming.com home page */
-
 /* Main area */
 
 .youtube-main{
@@ -44,6 +43,7 @@
 .videos-area-title{
   text-align: center;
   font-family: Roboto, Arial;
+  margin-top: 0px;
 }
 
 .video-container{

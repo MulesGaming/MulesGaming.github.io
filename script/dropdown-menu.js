@@ -18,3 +18,4 @@ function dropdownMenuVisible (visibility) {
     console.error("Given visibility is not open or close.");
   }
 }
+
