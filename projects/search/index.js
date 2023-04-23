@@ -33,11 +33,13 @@ function SearchView() {
     let results = data.items
     let resultContaner = document.querySelector(".results")
     
+    resultContaner.innerHTML = ``
+
     for(results of results){
       // HTML
       resultContaner.innerHTML += `
       <div class="video">
-        <a class="video-link" href="https://www.youtube.com/watch?v=${results.id.videoId}">
+        <a class="video-link" target="_blank" href="https://www.youtube.com/watch?v=${results.id.videoId}">
           <img class="video-thumbnail" src="https://i.ytimg.com/vi/${results.id.videoId}/hq720.jpg" alt="Result thumbnail" title="${results.snippet.title}">
           <h2 class="video-title">${results.snippet.title}</h2>
         </a>
@@ -64,11 +66,13 @@ function SearchDate() {
     let results = data.items
     let resultContaner = document.querySelector(".results")
     
+    resultContaner.innerHTML = ``
+
     for(results of results){
       // HTML
       resultContaner.innerHTML += `
       <div class="video">
-        <a class="video-link" href="https://www.youtube.com/watch?v=${results.id.videoId}">
+        <a class="video-link" target="_blank" href="https://www.youtube.com/watch?v=${results.id.videoId}">
           <img class="video-thumbnail" src="https://i.ytimg.com/vi/${results.id.videoId}/hq720.jpg" alt="Result thumbnail" title="${results.snippet.title}">
           <h2 class="video-title">${results.snippet.title}</h2>
         </a>

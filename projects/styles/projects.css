@@ -38,6 +38,7 @@ main{
 .projects-links .zeneii-mulesgaming-com-button:hover,
 .projects-links .datapacks-button:hover,
 .projects-links .search-button:hover,
+.minecraft-wordle-button:hover,
 .rps-button:hover{
   cursor: pointer;
   opacity: 0.7;
