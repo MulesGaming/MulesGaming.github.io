@@ -10,6 +10,9 @@
       <a href="/"  target="_blank"><button class="open-tab" id="newTab">Open new tab</button></a>
       <!-- Popup area -->
       <span id="thePopup" class="popup"><br>Easy</span>
+      <!---->
+      <button onclick="navigator.registerProtocolHandler(`tel`, `?tel=%s`, `call`)">tel</button>
+      <button onclick="navigator.registerProtocolHandler(`web+cool`, `?cool=%s`, `Cool!`)">cool</button>
       <!-- JS -->
       <script src="index.js"></script>
     </body>

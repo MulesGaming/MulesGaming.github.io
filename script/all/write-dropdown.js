@@ -28,8 +28,6 @@ const dropdownMenuMainItems = `
 const dropdownMenuExternal = `
 <!-- Styles -->
 <link rel="stylesheet" href="/styles/dropdown-menu.css">
-<!-- Scripts -->
-<script src="/script/dropdown-menu.js"></script>
 `;
 
 // Write to container

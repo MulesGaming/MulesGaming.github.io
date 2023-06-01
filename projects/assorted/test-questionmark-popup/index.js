@@ -31,4 +31,3 @@ if (popup === "true") {
 // Cookie
 
 document.cookie = "we-test=test; SameSite=None; Secure";
-

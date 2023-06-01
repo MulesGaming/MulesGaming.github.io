@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Player Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="player.css">
+  </head>
+  <body>
+    <video-player-main video-src="/media/videos/test-video.mp4" id="videoPlayerMain">
+      <!-- Video -->
+      <video class="test-video" id="testVideo" onclick="togglePlay()"><source src="/media/videos/test-video.mp4"></source></video>
+      <!-- Controls -->
+      <div class="video-controls hidden" id="videoControls">
+        <!-- Gradient -->
+        <div class="video-gradient" data-layer="9"></div>
+        <!-- Progress bar -->
+        <div id="progressBarDiv" class="progress-bar-div">
+          <div id="progressWatched" class="progress-watch"></div>
+          <div id="progressUnatched" class="progress-unwatch"></div>
+        </div>
+        <!-- Time -->
+        <div class="time">
+          <time id="time-elapsed">00:00</time>
+          <span> / </span>
+          <time id="duration">00:00</time>
+        </div>
+        <div class="main-player" id="mainPlayer">
+          <div class="left-side-player" id="playerLeftSide">
+            <!-- Play -->
+            <button data-title="Play (k)" id="play" onclick="togglePlay()" class="play">
+              <svg fill="white" height="100%" version="1.1" viewBox="0 0 36 36" width="100%" id="pausedButton"><use xlink:href="#ytp-id-70"></use><path d="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z"></path></svg>
+            </button> 
+            <!-- Volume -->
+            <button data-title="Volume" id="volume" onmouseover="volumeButtonMouseOver ()" onmouseleave="volumeButtonMouseOff ()" onclick="volumeButtonClick ()" class="volume">
+              <svg fill="white" id="unmutedVolume" height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><path d="M8,21 L12,21 L17,26 L17,10 L12,15 L8,15 L8,21 Z M19,14 L19,22 C20.48,21.32 21.5,19.77 21.5,18 C21.5,16.26 20.48,14.74 19,14 ZM19,11.29 C21.89,12.15 24,14.83 24,18 C24,21.17 21.89,23.85 19,24.71 L19,26.77 C23.01,25.86 26,22.28 26,18 C26,13.72 23.01,10.14 19,9.23 L19,11.29 Z" fill="white"></path></svg>
+            </button>
+            <div class="volume-control" id="volumeControl" onmouseover="volumeButtonMouseOver ()" onmouseleave="volumeButtonMouseOff ()" >
+              <button class="volume-change-button" id="lowerVolume" onclick="changeVideoVolumeButton (`decrease`)">-</button>
+              <span id="currentVolume">100</span><span>%</span>
+              <button class="volume-change-button" id="upVolume" onclick="changeVideoVolumeButton (`increase`)">+</button>
+            </div>
+          </div>
+          <div class="right-side-player" id="playerRightSide">
+            <!-- Picture in Picture -->
+            <button data-title="Picture in Picture" id="picInPic" onclick="togglePicInPic ()" class="volume">
+              <svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><path d="M25,17 L17,17 L17,23 L25,23 L25,17 L25,17 Z M29,25 L29,10.98 C29,9.88 28.1,9 27,9 L9,9 C7.9,9 7,9.88 7,10.98 L7,25 C7,26.1 7.9,27 9,27 L27,27 C28.1,27 29,26.1 29,25 L29,25 Z M27,25.02 L9,25.02 L9,10.97 L27,10.97 L27,25.02 L27,25.02 Z" fill="white"></path></svg>
+            </button>
+            <!-- Full screen -->
+            <button data-title="Fullscreen (f)" id="fullscreen" onclick="toggleFullscreen ()" class="fullscreen">
+              <svg fill="white" height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><g><use xlink:href="#ytp-id-7"></use><path class="ytp-svg-fill style-scope ytd-player" d="m 10,16 2,0 0,-4 4,0 0,-2 L 10,10 l 0,6 0,0 z" id="ytp-id-7"></path></g><g class="ytp-fullscreen-button-corner-1 style-scope ytd-player"><use class="ytp-svg-shadow style-scope ytd-player" xlink:href="#ytp-id-8"></use><path class="ytp-svg-fill style-scope ytd-player" d="m 20,10 0,2 4,0 0,4 2,0 L 26,10 l -6,0 0,0 z" id="ytp-id-8"></path></g><g class="ytp-fullscreen-button-corner-2 style-scope ytd-player"><use class="ytp-svg-shadow style-scope ytd-player" xlink:href="#ytp-id-9"></use><path class="ytp-svg-fill style-scope ytd-player" d="m 24,24 -4,0 0,2 L 26,26 l 0,-6 -2,0 0,4 0,0 z" id="ytp-id-9"></path></g><g class="ytp-fullscreen-button-corner-3 style-scope ytd-player"><use class="ytp-svg-shadow style-scope ytd-player" xlink:href="#ytp-id-10"></use><path class="ytp-svg-fill style-scope ytd-player" d="M 12,20 10,20 10,26 l 6,0 0,-2 -4,0 0,-4 0,0 z" id="ytp-id-10"></path></g></svg>
+            </button>
+          </div>
+        </div>
+      </video-player-main>
+    </main>
+    <!-- Script-->
+    <script src="player.js"></script>
+  </body>
+</html>
