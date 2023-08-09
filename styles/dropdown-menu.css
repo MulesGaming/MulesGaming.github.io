@@ -41,7 +41,11 @@
 
 .dropdown-menu-item{
   color: white;
-  margin-top: 20px;
-  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
+.dropdown-menu-item:hover{
+  background-color: #2e2e7a;
+}
