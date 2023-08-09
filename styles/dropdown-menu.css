@@ -9,6 +9,9 @@
 
 .dropdown-icon{
   cursor: pointer;
+  border-radius: 100px;
+  margin-left: 5px;
+  position: fixed;
 }
 
 .dropdown-close{
@@ -16,6 +19,15 @@
   position: absolute;
   right: -30px;
   font-size: 30px;
+  border-radius: 100px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.dropdown-icon:hover,
+.dropdown-close:hover{
+  background-color: gray;
+  opacity: 0.9;
 }
 
 /* Menu */
