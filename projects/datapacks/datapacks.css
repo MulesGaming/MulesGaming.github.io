@@ -2,7 +2,9 @@
 
 body{
   font-family: Roboto, Arial;
-  background-color:rgb(175, 175, 175);
+  background-color:rgb(238, 55, 55);
+  margin: 0px;
+  text-align: center;
 }
 
 /* How to install */

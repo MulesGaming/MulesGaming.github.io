@@ -16,74 +16,26 @@
     <script src="/script/all/load.js"></script>
   </head>
   <body>
-    <main class="main">
+    <!-- Dropdown menu -->
+    <section id="dropdown" class="dropdown">
+      <script src="/script/all/write-dropdown.js"></script>
+      <script src="/script/dropdown-menu.js"></script>
+    </section>
+    <!---->
+    <section class="header-area">
+      <h1 class="title-header">My datapacks</h1>
       <article class="how-to-install-container">
         <a href="/projects/datapacks/how-to-install.html" class="how-install-link">
           <h3 class="how-to-install-text">Click me to learn how to install datapacks</h3>
         </a>
       </article>
+    </section>
+    <!-- Main -->
+    <main id="Main">
       <!--Datapack list-->
-      <article class="datapack-list">
-        <!--Blockcraft S3 datapack-->
-        <section class="datapack-backround">
-          <h3 class="datapack-name">Blockcraft Season 3 Datapack</h3>
-          <div class="datapack-info-container">
-            <p class="datapack-info">Minecraft version: 1.19.x | Creator: Mules Gaming</p>
-            <p class="desc">The custom datapack used in the Minecraft lets play, <a href="/projects/blockcraft/blockcraft.html">Blockcraft!</a> This datapack adds 5 spells to the game that can be found if various structures in the game. To cast the spells, hold a wand in your main hand and the spell you want to cast in your off hand. You can get the wand by tossing a stick on-to a enchanting table.</p>
-          </div>
-          <ul class="downloads">
-            <a href="/media/folders/datapacks/blockcraft-s3/blockcraft-s3-datapackUNZIP-ME.zip" download="Blockcraft Season 3 Datapack" class="download-link">
-              <button class="download-button">Download latest</button>
-            </a>
-            <a href="/projects/datapacks/all-versions/blockcraft-s3.html" target="_blank" class="all-versions-link">
-              <button class="all-versions-button">All versions</button>
-            </a>
-          </ul>
-        </section>
-        <br>
-        <!--Example datapack-->
-        <section class="datapack-backround">
-          <h3 class="datapack-name">Example datapack</h3>
-          <div class="datapack-info-container">
-            <p class="datapack-info">Minecraft version: 1.19.x | Creator: Mules Gaming</p>
-            <p class="desc">The example datapack used in <a href="/yt.html">Mules Gaming's</a> YouTube <a href="https://youtu.be/EVuN0rXdsLg">tutorial on making datapacks.</a></p>
-          </div>
-            <ul class="downloads">
-            <a href="/media/folders/datapacks/example-datapack/example-datapackUNZIPME.zip" download="Example Datapack" class="download-link">
-              <button class="download-button">Download latest</button>
-            </a>
-          </ul>
-          <br>
-        </section>
-        <!--Charging Knights-->
-        <section class="datapack-backround">
-          <h3 class="datapack-name">Charging knights</h3>
-          <div class="datapack-info-container">
-            <p class="datapack-info">Minecraft version: 1.19.4/23w06a+ | Creator: Mules Gaming</p>
-            <p class="desc">The datapack used in <a href="/yt.html">Mules Gaming's</a> YouTube <a href="https://youtu.be/PV8j-MqyWNg">charging knights/haunted knights video</a></p>
-          </div>
-            <ul class="downloads">
-            <a href="/media/folders/datapacks/Charging-knights.zip" download="Charging Knights Datapack" class="download-link">
-              <button class="download-button">Download latest</button>
-            </a>
-          </ul>
-          <br>
-        </section>
-        <!--GOld Run-->
-        <section class="datapack-backround">
-          <h3 class="datapack-name">Gold Run</h3>
-          <div class="datapack-info-container">
-            <p class="datapack-info">Minecraft version: 1.20.1 | Creator: Mules Gaming</p>
-            <p class="desc">Parkor based Minecraft minigame!</p>
-          </div>
-            <ul class="downloads">
-            <a href="https://github.com/MulesGaming/Gold-Run/releases" class="download-link">
-              <button class="download-button">Download latest</button>
-            </a>
-          </ul>
-          <br>
-        </section>
+      <article class="datapack-list" id="datapackList">
       </article>
     </main>
   </body>
+  <script src="datapacks.js"></script>
 </html>
