@@ -25,7 +25,7 @@ for (let i = 0; i < datapackList.length; i++) {
       <p class="desc">${datapackList[i].desc}</p>
     </div>
     <ul class="downloads">
-      <a href="${datapackList[i].download}" download="${datapackList[i].name}" class="download-link">
+      <a href="${datapackList[i].download}" download="${datapackList[i].name}" class="download-link" target="_blank">
         <button class="download-button">Download latest</button>
       </a>
     </ul>
