@@ -32,6 +32,10 @@ body{
   margin-left: 25px;
 }
 
+.datapack-info-container{
+  margin-left: 5px;
+}
+
 .download-button{
   background-color: yellow;
   padding: 15px 10px 15px 10px;
@@ -49,3 +53,6 @@ body{
   background-color: rgb(199, 199, 0);
 }
 
+.datapack-version{
+  color: gray;
+}
