@@ -9,7 +9,7 @@ const dropdownMenuContainer = document.getElementById("dropdown");
 // Defince menu ellement vars
 
 const dropdownMenuMainIcon = `
-<div class="dropdown-icon" id="dropdownIcon" onclick="dropdownMenuVisible ('open')"><img class="dropdown-icon-image" src="/media/images/hamburger-menu-icon.svg"></div>
+<div class="dropdown-icon" id="dropdownIcon" onclick="dropdownMenuVisible ('open')"><img class="dropdown-icon-image" title="Dropdown menu" alt="menu" src="/media/images/hamburger-menu-icon.svg"></div>
 `;
 
 const dropdownMenuMainItems = `
