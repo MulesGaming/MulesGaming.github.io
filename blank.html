@@ -5,5 +5,18 @@
 </head>
 <body>
   <!-- Blank -->
+  <div id="text"></div>
 </body>
+<script>
+  const textBox = document.getElementById('text')
+  // Get ?text= and display it
+  const queryString = window.location.search;
+
+  const urlParams = new URLSearchParams(queryString);
+
+  const text = urlParams.get('text')
+
+  textBox.innerText = text
+
+</script>
 </html>
