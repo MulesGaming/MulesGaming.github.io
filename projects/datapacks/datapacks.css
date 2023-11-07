@@ -2,79 +2,57 @@
 
 body{
   font-family: Roboto, Arial;
-  background-color:rgb(175, 175, 175);
+  background-color:rgb(238, 55, 55);
+  margin: 0px;
+  text-align: center;
 }
 
 /* How to install */
 
-main .how-to-install-container{
-  text-align: center;
+.how-install-link{
+  text-decoration: none;
 }
 
 .how-install-link .how-to-install-text{
   margin-bottom: 5px;
+  color: black;
 }
 
 /* Datapacks */
+
+/*.datapack-list{
+  
+}*/
+
+.datapack-backround{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 90%;
+  margin-left: 25px;
+}
 
 .datapack-info-container{
   margin-left: 5px;
 }
 
-.datapack-name{
-  margin-left: 5px;
+.download-button{
+  background-color: yellow;
+  padding: 15px 10px 15px 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border-width: 0px;
 }
 
-.downloads{
-  padding: 0px;
-}
-
-.downloads .download-link,
-.downloads .all-versions-link{
-  text-decoration: none;
-  text-align: center;
-}
-
-.download-link .download-button{
-  margin: 0px 0px 5px 5px;
-  padding: 5px 3px 5px 3px;
-  border-radius: 5px;
-  background-color: aquamarine;
+.download-button:hover{
+  background-color: rgb(228, 228, 0);
   cursor: pointer;
-  display: block;
 }
 
-.all-versions-link .all-versions-button{
-  margin: 0px 0px 5px 5px;
-  padding: 5px 3px 5px 3px;
-  border-radius: 5px;
-  background-color: magenta;
-  cursor: pointer;
-  display: block;
+.download-button:active{
+  background-color: rgb(199, 199, 0);
 }
 
-.download-link .download-button:hover,
-.all-versions-link .all-versions-button:hover{
-  opacity: .7;
-}
-
-.download-link .download-button:active,
-.all-versions-link .all-versions-button:hover{
-  opacity: .4;
-}
-
-.datapack-backround{
-  background-color: gray;
-  border-style: solid;
-  border-radius: 5px;
-}
-
-.datapack-info{
-  color: lightgray;
-  font-size: small;
-  margin-top: 0px;
-}
-
-.desc{
-  margin-top: 10px;
+.datapack-version{
+  color: gray;
 }

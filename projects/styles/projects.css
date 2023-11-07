@@ -4,63 +4,53 @@
 
 body{
   margin: 0px;
+  background-color: rgba(238, 55, 55);
+  text-align: center;
+  font-family: Roboto, Arial;
 }
 
 main{
-  background-color: rgb(238, 55, 55);
+  display: grid;
+  column-gap: 15px;
+  row-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 10px;
 }
 
-.projects-links{
-  text-align: center;
+.project{
+  width: 250px;
+  height: 250px;
 }
 
-/* Buttons */
-
-.projects-links .mystery-9-wands-button,
-.projects-links .skins-button,
-.projects-links .bluey-mulesgaming-com-button,
-.projects-links .zeneii-mulesgaming-com-button,
-.projects-links .datapacks-button,
-.projects-links .search-button,
-.minecraft-wordle-link .minecraft-wordle-button,
-.rps-button{
-  border-radius: 5px;
-  padding: 5px 10px 5px 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  background-color: rgb(84, 150, 150);
-}
-
-.projects-links .mystery-9-wands-button:hover,
-.projects-links .skins-button:hover,
-.projects-links .bluey-mulesgaming-com-button:hover,
-.projects-links .zeneii-mulesgaming-com-button:hover,
-.projects-links .datapacks-button:hover,
-.projects-links .search-button:hover,
-.minecraft-wordle-button:hover,
-.rps-button:hover{
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.projects-links .mystery-9-wands-button:active,
-.projects-links .skins-button:active,
-.projects-links .bluey-mulesgaming-com-button:active,
-.projects-links .zeneii-mulesgaming-com-button:active,
-.projects-links .datapacks-button:active,
-.projects-links .search-button:active,
-.rps-button:active{
-  opacity: 0.5;
-}
-
-.mystery-9-wands-link,
-.skins-link,
-.bluey-mulesgaming-com-link,
-.zeneii-mulesgaming-com-link,
-.datapacks-link,
-.search-link,
-.rps-link{
-  color: black;
+.project-link{
   text-decoration: none;
+  color: white;
+}
+
+/**/
+
+.project-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.text{
+  background-color: rgba(162,149,149,0.8);
+  height: 35%;
+  /**/
+  position: relative;
+  top: -90px
+}
+
+.project:hover .text{
+  background-color: rgb(69, 62, 62);
+  height: 50%;
+  top: -129px
+}
+
+.project-title{
+  display: block;
+  color: white;
+  font-size: 170%;
 }

@@ -92,7 +92,7 @@ function processResult (userSelection) {
     }
 
   // Result text
-  outputDiv.innerHTML += `
+  outputDiv.innerHTML = `
   <p class="result-text">You chose <span class="user-selection">` + userSelection + `</span> and I chose <span class="computer-choise">` + outputValue +`</span>. <span class="game-winner">` + gameWinner + `</span></p>`  
 }
 
