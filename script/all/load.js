@@ -1,6 +1,6 @@
 // Loaded successfully
 
-console.log("Successfully load website! https://www.mulesgaming.com")
+console.log(`Successfully load website! ${window.location.href}`)
 
 // Warn
 

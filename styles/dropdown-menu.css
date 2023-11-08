@@ -35,7 +35,7 @@
 
 .dropdown-menu-main{
   visibility: hidden;
-  min-width: 75px;
+  min-width: 170px;
   position: fixed;
   height: 100%;
   width: 25%;
