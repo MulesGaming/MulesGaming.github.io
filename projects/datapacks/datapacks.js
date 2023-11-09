@@ -21,7 +21,7 @@ for (let i = 0; i < datapackList.length; i++) {
   <section class="datapack-backround">
     <h3 class="datapack-name">${datapackList[i].name}</h3>
     <div class="datapack-info-container">
-      <p class="desc"><span class="datapack-version">For version ${datapackList[i].version}</span> | ${datapackList[i].desc}</p>
+      <p class="desc"><span class="datapack-version">For version ${datapackList[i].version}</span> ${datapackList[i].desc}</p>
     </div>
     <ul class="downloads">
       <a href="${datapackList[i].download}" download="${datapackList[i].name}" class="download-link" target="_blank">
