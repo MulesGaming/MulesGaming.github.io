@@ -10,7 +10,7 @@ function writeHTML(videoData){
   let videoIndividualID = videoData.items[0].id
   let videoContaner = document.querySelector(".videos-container")
   // HTML
-  videoContaner.innerHTML += `
+  videoContaner.innerHTML = `
   <section class="video">
     <a class="videos-link" href="https://www.youtube.com/watch?v=${videoIndividualID}">
       <img src="https://i.ytimg.com/vi/${videoIndividualID}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.title}" alt="${videos.title}'s thumbnail">  

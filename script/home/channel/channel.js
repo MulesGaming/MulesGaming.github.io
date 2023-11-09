@@ -20,7 +20,7 @@ fetch("https://youtube.googleapis.com/youtube/v3/channels?part=snippet&part=stat
     
     for(channel of channel){
       // HTML
-      channelContaner.innerHTML += `
+      channelContaner.innerHTML = `
       <a class="channel-link" href="https://www.youtube.com/${channel.snippet.customUrl}">
           <img src="${channel.snippet.thumbnails.default.url}" class="channel-icon" title="Mules Gaming's Channel picture" alt="Mules channel picture">
       </a>
