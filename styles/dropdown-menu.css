@@ -4,6 +4,7 @@
   position: absolute;
   z-index: 100;
   top: 0px;
+  text-align: left;
 }
 
 /* Icon and close */
