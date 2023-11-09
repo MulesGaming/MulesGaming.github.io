@@ -7,7 +7,23 @@ main{
   text-align: center;
 }
 
+.error-body{
+  font-size: 20px;
+}
+
 .page-not-found-header{
   color: red;
 }
 
+/* Buttons */
+
+.error-button{
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+}

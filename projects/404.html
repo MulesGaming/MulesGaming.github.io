@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Error 404: Page not found - Mules Gaming</title>
+  <title>Error 404: Page not found - Projects - Mules Gaming</title>
   <link rel="icon" type="image/x-icon" href="/media/images/favicon.ico">
   <link rel="stylesheet" href="/styles/errors/404.css">
-  <link rel="stylesheet" href="/styles/footer/footer.css">
   <!-- Roboto font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,14 +18,15 @@
   <!-- Main error -->
   <main>
     <h1 class="page-not-found-header">404 Page not found.</h1>
-    <p>If you are seeing this, the page you are looking for (<span class="url"></span>) does not exist or has moved.</p>
+    <img class="jeb" src="/media/images/misc/jeb-nooo.jpg" width="500">
+    <p class="error-body">If you are seeing this, the <a href="/projects/">project</a> are looking for (<span class="url" id="url"></span>) does not exist or has moved.</p>
     <!-- Buttons -->
     <div class="buttons">
-      <a href="/" class="buttonLink"><button class="error-button" id="homeButton">Go home</button></a>
-      <a href="/projects/" class="buttonLink"><button class="error-button" id="projectButton">Go to project list</button></a>
-  </div>
+        <a href="/" class="buttonLink"><button class="error-button" id="homeButton">Go home</button></a>
+        <a href="/projects/" class="buttonLink"><button class="error-button" id="projectButton">Go to project list</button></a>
+    </div>
   </main>
-  <!-- Load JS -->
-  <script src="/script/errors/404.js"></script>
+  <!-- Script -->
+  <script src="404.js"></script>
 </body>
 </html>
