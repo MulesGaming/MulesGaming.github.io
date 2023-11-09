@@ -7,6 +7,12 @@ body{
   text-align: center;
 }
 
+/* Links */
+
+a{
+  color: #b4afaf;
+}
+
 /* How to install */
 
 .how-install-link{
@@ -55,4 +61,5 @@ body{
 
 .datapack-version{
   color: gray;
+  display: block;
 }
