@@ -22,7 +22,7 @@ const dropdownMenuMainItems = `
   <a href="/yt.html"><div class="dropdown-menu-item"><img class="dropdown-menu-img" src="/media/images/yt_icon_mono_dark.png" width="50">YouTube</div></a>
   <a href="/twt"><div class="dropdown-menu-item"><img class="dropdown-menu-img" src="/media/images/twitter_logo.png" width="50">Twitter</div></a>
   <a href="/mastodon"><div class="dropdown-menu-item"><img class="dropdown-menu-img" src="/media/images/mastodon_logo.svg" width="50">Mastodon</div></a>
-  <a href="https://github.com/MulesGaming"><div class="dropdown-menu-item"><img class="dropdown-menu-img" src="/media/images/github-logo-white.svg" width="50">GitHub</div></a>
+  <a href="/github"><div class="dropdown-menu-item"><img class="dropdown-menu-img" src="/media/images/github-logo-white.svg" width="50">GitHub</div></a>
 </div>
 `;
 
