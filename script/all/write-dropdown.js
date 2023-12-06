@@ -22,6 +22,7 @@ const dropdownMenuMainItems = `
   <a href="/yt.html"><div class="dropdown-menu-item" title="YouTube - @mulesgamingmc"><img class="dropdown-menu-img" src="/media/images/yt_icon_mono_dark.png" width="50">YouTube</div></a>
   <a href="/twt"><div class="dropdown-menu-item" title="Twitter - @mulesgaming"><img class="dropdown-menu-img" src="/media/images/twitter_logo.png" width="50">Twitter</div></a>
   <a href="/mastodon"><div class="dropdown-menu-item" title="Mastodon - @mulesgaming@mastodon.social"><img class="dropdown-menu-img" src="/media/images/mastodon_logo.svg" width="50">Mastodon</div></a>
+  <a href="/bsky"><div class="dropdown-menu-item" title="BlueSky - @mulesgaming.com"><img class="dropdown-menu-img" src="/media/images/cloud.svg" width="50">BlueSky</div></a>
   <a href="/github"><div class="dropdown-menu-item" title="Github - MulesGaming"><img class="dropdown-menu-img" src="/media/images/github-logo-white.svg" width="50">GitHub</div></a>
 </div>
 `;
