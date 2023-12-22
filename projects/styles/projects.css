@@ -15,6 +15,12 @@ main{
   row-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
   margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
 }
 
 @media screen and (max-width: 500px){
