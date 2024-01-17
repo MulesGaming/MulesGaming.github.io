@@ -3,11 +3,33 @@
   padding: 10px;
 }
 
-.twitter-link{
+.other-social-link{
   color: black;
 }
 
+/*.twitter-social-link::before{
+  content: url("/media/images/twitter_logo.png");
+  width: 50px;
+  height: 50px;
+}
 
-.twitter-posts{
-  padding: 10px;
+
+
+.mastodon-social-link::before{
+  content: url("/media/images/mastodon_logo.svg");
+  width: 50px;
+  height: 50px;
+}
+
+.bsky-social-link::before{
+  content: url("/media/images/bluesky.svg");
+  width: 50px;
+  height: 50px;
+}*/
+
+.other-social-div{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
