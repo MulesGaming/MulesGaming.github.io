@@ -32,7 +32,6 @@ function getStats(id){
     // Stats
     fetchURL = "https://youtube.googleapis.com/youtube/v3/videos?part=statistics,snippet&id=" + videoID + "&key=AIzaSyAMMhkNlgDzRQKmBIr7NKYkxlbd52Vcv-A"
     fetch(fetchURL).then((result)=>{
-      console.log(result)
       return result.json()
     }).then((videoData)=>{
       writeHTML(videoData)
