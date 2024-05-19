@@ -24,6 +24,7 @@ const dropdownMenuMainItems = `
   <a href="/mastodon"><div class="dropdown-menu-item" title="Mastodon - @mulesgaming@mastodon.social"><img class="dropdown-menu-img" src="/media/images/mastodon_logo.svg" width="50">Mastodon</div></a>
   <a href="/bsky"><div class="dropdown-menu-item" title="BlueSky - @mulesgaming.com"><img class="dropdown-menu-img" src="/media/images/bluesky.svg" width="50">BlueSky</div></a>
   <a href="/github"><div class="dropdown-menu-item" title="Github - MulesGaming"><img class="dropdown-menu-img" src="/media/images/github-logo-white.svg" width="50">GitHub</div></a>
+  <a href="/gitlab"><div class="dropdown-menu-item" title="Gitlab - mulesgaming"><img class="dropdown-menu-img" src="/media/images/gitlab-icon.svg" width="50">GitLab</div></a>
 </div>
 `;
 
