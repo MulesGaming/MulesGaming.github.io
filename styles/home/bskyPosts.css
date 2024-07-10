@@ -1,0 +1,40 @@
+/* Center thing */
+
+#bskyPostsPostHolder{
+    display: flex;
+    justify-content: center;
+}
+
+/* Posts div background */
+
+#bskyPostsHolder{
+    background-color: #000000;
+    max-width: 65%;
+    border-radius: 15px;
+}
+
+/* Color text */
+
+.bsky-post-link-to-post{
+    color: white;
+    text-decoration: none;
+}
+
+/* Theme divs */
+
+.bsky-post-items{
+    margin: 15px;
+    padding-bottom: 15px;
+    border-color: rgb(28, 39, 50);
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+}
+
+/* Images */
+
+.bsky-post-image{
+    max-width: 500px;
+    max-height: 500px;
+}
+
