@@ -13,10 +13,10 @@ function writeHTML(videoData){
   videoContaner.innerHTML += `
   <section class="video">
     <a class="videos-link" href="https://www.youtube.com/watch?v=${videoIndividualID}">
-      <img src="https://i.ytimg.com/vi/${videoIndividualID}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.title}" alt="${videos.title}'s thumbnail">  
+      <img src="https://i.ytimg.com/vi/${videoIndividualID}/hq720.jpg" class="video-thumbnail" title="Thumbnail of ${videos.title}" alt="${videos.title}'s thumbnail" width="480" height="270">  
       <h3 class="video-title" title="${videos.title}">${videos.title}</h3>
-      <div class="video-stats">
-        <img class="view-icon" src="/media/images/view-icon.svg" alt="A eye" title="views">
+      <div class="video-stats" title="${stats.viewCount} views">
+        <img class="view-icon" src="/media/images/view-icon.svg" alt="Views" width="30">
         <p class="view-count">${stats.viewCount}</p>
       </div>
     </a>

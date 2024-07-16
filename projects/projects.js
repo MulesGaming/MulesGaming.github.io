@@ -27,7 +27,7 @@ function write_boxes() {
 
   // Write
     mainElement.innerHTML += `
-  <section class="project">
+  <section class="project" title="${projects[i].name}">
     <a class="project-link" href="${projects[i].link}">
       <img class="project-img" src="${projectImage}" alt="${projects[i].name} Logo" title="${projects[i].name}">
       <div class="text">
