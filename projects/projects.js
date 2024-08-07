@@ -2,6 +2,7 @@
 
 projects = [
   {name:"Minecraft Wordle",desc:"The Wordle, but Minecraft!",link:"https://minecraftwordle.fun",img:"https://minecraftwordle.fun/media/img/logo.png"},
+  {name:"Minecraft Wordle API",desc:"The API that allows to to access info from my Minecraft Wordle!",link:"https://minecraftwordle.fun/api",img:"/media/images/minecraft-wordle/API.png"},
   {name:"Brave debullshitinator",desc:"Removes unessasary bloat from Brave Browser.",link:"https://github.com/MulesGaming/brave-debullshitinator",img:"/media/images/brave-logo.png"},
   {name:"My Minecraft skins",desc:"My Minecraft skins!",link:"/projects/skins",img:""},
   {name:"My Datapacks for Minecraft",desc:"Datapacks I've made!",link:"/projects/datapacks",img:""},
